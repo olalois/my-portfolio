@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Acme&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
+body{
+    background: rgb(247, 244, 244);
+    color: rgb(51, 50, 50);
+    margin-left: 350px;
+    margin-right: 400px;
+    font-family: acme;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: justify;
+}
+.container{
+    width: 650px;
+    margin-top: 40px;
+    border: 1px solid rgb(230, 221, 221);
+    padding: 15px;
+    border-radius: 15px;
+}
+.first_note{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.second_note{
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+.introduction .bio_ish{
+    display: flex;
+    flex-direction: row;
+}
+.introduction h3{
+    font-size: x-large;
+}
+.introduction h1{
+    margin-right: 350px;
+}
+.bio_ish img{
+    width: 100px;
+    border-radius: 100px;
+}
+.container .skills h3{
+    font-family:acme;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.container .skills ul li img{
+    width:25px;
+    border-radius: 100px;
+}
+
+.container .skills ul li{
+    font-size: x-large;
+    font-family: abeezee;
+    font-weight: 600;
+}
+.container .projects h3{
+    font-family: acme;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.container .projects{
+    font-size: x-large;
+}
+.container .contact h3{
+    font-family: acme;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.container .contact ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+.container .contact ul li{
+    font-size: x-large;
+}
+.container .contact ul li a{
+    text-decoration: none;
+    color:#5518ab;
+}
+
+footer{
+    font-size: x-large;
+    text-wrap: nowrap;
+}
+.blank{
+    background-color: rgb(241, 234, 221);
+    height: 30px;
+    width: 680px;
+    position: sticky;
+    top: 0;
+}
+.anime{
+    position: fixed;
+    /* background-color: white; */
+    display: inline-block;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  text-wrap: nowrap;
+  
+}
+@keyframes example {
+    0%   { left:360px; top:10px;}
+    25%  { left:790px; top:10px;}
+    50%  {left:790px; top:10px;}
+    75%  {left:360px; top:10px;}
+    100% {left:360px; top:10px;}
+}
